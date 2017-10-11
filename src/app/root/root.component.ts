@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 
+
 @Component({
-  selector: 'app-true-root',
+  selector: 'app-root',
   templateUrl: './root.component.html',
-  styleUrls: ['./root.component.css']
+  styleUrls: ['./root.component.scss']
 })
 
 export class RootComponent {
-  hello = 'hello';
+  user = 'Paul';
+  numbers = [2,3,4,5];
 }

@@ -1,5 +1,10 @@
-<div>
-  THIS IS MY THE ROOT OF MY APP !!!!
+<div id="root-component">
+  Bonjour {{user}}
   <app-header></app-header>
   <app-body></app-body>
+   <button mat-raised-button color="primary">Primary</button>
+  
+  <div *ngFor="let number of numbers">
+    {{number}}
+  </div>
 </div>
